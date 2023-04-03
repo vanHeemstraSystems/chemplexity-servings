@@ -2,7 +2,7 @@
 
 See also https://www.tutorialsteacher.com/d3js/loading-data-from-file-in-d3js#d3.json
 
-We will query a remote GraphQL endpoint as follows:
+We will query a remote GraphQL endpoint https://hasura-7exz.onrender.com/console/api/api-explorer as follows:
 
 ```
 {
