@@ -30,3 +30,4 @@ d3.json("cereal.json", function(graph) {
 }
 ...
 ```
+index.html
