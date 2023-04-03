@@ -20,3 +20,13 @@ Our local JSON file is **cereals.json** and contains the following:
 }
 ```
 cereals.json
+
+The above file can thus be read into d3 as follows:
+
+```
+...
+d3.json("cereal.json", function(graph) {
+   MORE LOGIC HERE
+}
+...
+```
