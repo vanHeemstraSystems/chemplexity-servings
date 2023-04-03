@@ -71,6 +71,6 @@ The outcome is:
 ```
 Response from GraphQL query
 
-In ordser for d3.json to be able to handle this response we need to do the following:
+In order for d3.json() to be able to handle this response we need to do the following:
 
 MORE ...
