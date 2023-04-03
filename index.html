@@ -46,8 +46,7 @@ var force = d3.layout.force()
     .charge(-400)
     .linkDistance(function(d) { return radius(d.source.size) + radius(d.target.size) + 8; });
 
-    // e.g. alanine.json
-	d3.json("cereal.json", function(graph) {
+d3.json("cereal.json", function(graph) {
     force.nodes(graph.nodes)
         .links(graph.links)
         .charge(-450)
